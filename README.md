@@ -5,10 +5,9 @@
 "Emotions" dataset – a collection of English Twitter messages meticulously annotated with six fundamental emotions: anger, fear, joy, love, sadness, and surprise. This dataset serves as a valuable resource for understanding and analyzing the diverse spectrum of emotions expressed in short-form text on social media.
 1. [Introduction](#1-introduction)
 2. [Experiment Setup](#2-experiment-setup)
-3. [Performance Results](#3-performance-results)
-4. [Back Translation Results](#4-back-translation-results)
-5. [Conclusion](#5-conclusion)
-6. [References](#6-references)
+3. [Results and Analysis](#3-results-and-analysis)
+4. [Conclusion](#5-conclusion)
+5. [References](#6-references)
 
 ## 1. Introduction
 Emotion analysis in short text messages aims to classify texts based on emotional sentiment to help identify various human-related actions and events. This study uses the Emotions dataset, which contains Twitter messages labeled with six emotion categories: sadness, joy, love, anger, fear, and surprise. The analysis involves data preprocessing, feature extraction, and model training using Logistic Regression. The study focuses on exploring TF-IDF feature extraction, the impact of different feature component sizes, and class weighting on classification performance. Experimental results show that the model trained with TF-IDF features, equal class weighting, and feature components set to 6% of the total vocabulary achieves better performance.
